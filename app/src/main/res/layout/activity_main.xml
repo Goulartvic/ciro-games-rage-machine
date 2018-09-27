@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fd6166"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,22 +14,29 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:src="@drawable/cirogames2" />
+        android:src="@drawable/cirao0" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="@string/generate"/>
-
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/rage_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="196dp"
-        android:ems="10" />
+        android:layout_marginBottom="160dp"
+        android:ems="10"
+        android:text="VAI CONHECER A CIROCRACIA!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/generate_rage"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/generate"
+        android:textColor="@color/white" />
 
 
 </RelativeLayout>

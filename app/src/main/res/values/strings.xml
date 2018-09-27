@@ -1,4 +1,57 @@
 <resources>
     <string name="app_name">Ciro Games Rage Machine</string>
     <string name="generate">GERA ESSA MERDA!</string>
+    <string-array name="rage_first_part">
+        <item>Bandidinho</item>
+        <item>Cadela no cio</item>
+        <item>Chefe de quadrilha</item>
+        <item>Conspirador</item>
+        <item>Golpista</item>
+        <item>Jumento de carga</item>
+        <item>Maior bandido</item>
+        <item>Na sua vaidade de</item>
+        <item>Playboy</item>
+        <item>Projetinho de</item>
+        <item>Protoneoliberalzinho</item>
+        <item>Salafrário</item>
+    </string-array>
+    <string-array name="rage_second_part">
+        <item>abestado</item>
+        <item>abirobado</item>
+        <item>amalucado</item>
+        <item>apartidário</item>
+        <item>bobão</item>
+        <item>boçal</item>
+        <item>chefe de milícia</item>
+        <item>cheirador de cocaína</item>
+        <item>covarde</item>
+        <item>delinquente juvenil</item>
+        <item>despreparado</item>
+        <item>farsante</item>
+        <item>fascistoide</item>
+        <item>filho da puta</item>
+        <item>fisiológico</item>
+        <item>frouxo</item>
+        <item>fuxiqueiro</item>
+        <item>idiota</item>
+        <item>imbecil</item>
+        <item>infeliz</item>
+        <item>liberaloide</item>
+        <item>marginal</item>
+        <item>oportunista</item>
+        <item>picareta</item>
+        <item>protofascistinha</item>
+        <item>quadrilheiro</item>
+        <item>safado</item>
+        <item>selvagem</item>
+        <item>vil e pulsânime</item>
+    </string-array>
+    <string-array name="rage_third_part">
+        <item>cheio de areia no cu</item>
+        <item>de merda</item>
+        <item>desgraçado</item>
+        <item>dos grandes</item>
+        <item>dos infernos</item>
+        <item>eleitoreiro</item>
+    </string-array>
 </resources>
