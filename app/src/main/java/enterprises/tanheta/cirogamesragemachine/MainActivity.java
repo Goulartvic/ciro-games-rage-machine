@@ -15,6 +15,8 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    int lastSortImage;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +58,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void changeCiraoPicture() {
         Random random = new Random();
         int sortImage = random.nextInt(8);
+        while (sortImage == lastSortImage) {
+            sortImage = random.nextInt(8);
+        }
+        lastSortImage = sortImage;
         Resources resources = getApplicationContext().getResources();
         final int resourceId = resources.getIdentifier("cirao" + sortImage, "drawable",
                 getApplicationContext().getPackageName());
